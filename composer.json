@@ -1,0 +1,26 @@
+{
+    "name": "laraveldaily/laraonboarding",
+    "description": "Sending onboarding emails to registered users",
+    "authors": [
+        {
+            "name": "Laravel Daily",
+            "email": "info@laraveldaily.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laraveldaily\\LaraOnboarding\\": "src/"
+        }
+    },
+    "version": "0.1.0",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laraveldaily\\LaraOnboarding\\OnboardingServiceProvider"
+            ]
+        }
+    }
+}
